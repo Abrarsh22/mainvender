@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<head>
+<title>
+Demo Page</title>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="demostyle.css">
+<script>
+$(document).ready(function(){
+
+		$(".aa-cartbox-summary").hide();
+		$(".aa-cart-link").hover(function(){
+			$(".aa-cartbox-summary").fadeIn();
+			setTimeout(function(){ $('#aa-cartbox-summary').hide(); }, 122);
+		});
+		$(".aa-cart-link").mouseleave(function(){
+			$(".aa-cartbox-summary").hide();
+		});
+		$(".aa-cartbox-summary").hover(function(){
+			$(".aa-cartbox-summary").show();
+		});
+		$(".aa-cartbox-summary").mouseleave(function(){
+			$(".aa-cartbox-summary").fadeOut();
+		});
+		
+		
+
+		
+		
+		
+		
+});
+
+</script>
+</head>
+
+<div class="aa-cartbox">
+                <a class="aa-cart-link" href="#">
+                  <span class="fa fa-shopping-basket"></span>
+                  <span class="aa-cart-title">SHOPPING CART</span>
+                  <span class="aa-cart-notify">2</span>
+                </a>
+                <div class="aa-cartbox-summary">
+                  <ul>
+                    <li>
+                      <a class="aa-cartbox-img" href="#"><img src="slider1.jpg" alt="img"></a>
+                      <div class="aa-cartbox-info">
+                        <h4><a href="#">Product Name</a></h4>
+                        <p>1 x $250</p>
+                      </div>
+                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                    </li>
+                    <li>
+                      <a class="aa-cartbox-img" href="#"><img src="slider3.jpg" alt="img"></a>
+                      <div class="aa-cartbox-info">
+                        <h4><a href="#">Product Name</a></h4>
+                        <p>1 x $250</p>
+                      </div>
+                      <a class="aa-remove-product" href="#"><span class="fa fa-times"></span></a>
+                    </li>                    
+                    <li>
+                      <span class="aa-cartbox-total-title">
+                        Total
+                      </span>
+                      <span class="aa-cartbox-total-price">
+                        $500
+                      </span>
+                    </li>
+                  </ul>
+                  <a class="aa-cartbox-checkout aa-primary-btn btn-primary" href="checkout.html">Checkout</a>
+                </div>
+              </div>
+</html>
+</body>
+			  
+			  

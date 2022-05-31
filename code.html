@@ -1,0 +1,598 @@
+#ffb833
+background: rgba(255, 193, 77,0.8);
+<div id="loading"  style="background: white url('preloaderforshop.gif') no-repeat center;width:100%;height:100vh;display:fixed;z-index:9999;">
+    <div class="text" style="display:grid;place-items:center;padding-top:180px;position:relative;"><h3>Creating your own shop...</h3></div>
+    </div>
+
+            setTimeout(function(){ $('.text').html("<h3>Wait  for a moment...</h3>"); }, 5000);
+            setTimeout(function(){ $('.text').html("<h3>Updating Logos and Textures...</h3>"); }, 10000);
+            setTimeout(function(){ $('#loading').hide(); }, 12000);
+            setTimeout(function(){ $('body').css({"overflow":"scroll"}); }, 13);
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3">
+            <h4 style="color:white;text-decoration:underline;
+            font-family:Times New Roman;font-style:bold;font-size:22px;">
+            <img src="shop.png" alt="Logo" style="height:45px;width:70px;" class="img-rounded">MyShopPrime</h4>
+        </div>
+        <div class="col-4 col-md-6 py-2">
+            <div class="wrap">
+                <div class="search">
+                    <input type="text" class="searchTerm" placeholder="Search for Products">
+                    <button type="button" class="searchButton">
+                            <i class="fa fa-search">Search</i>      
+                    </button>
+                </div>
+            </div>
+            </div>
+    <div> 
+ /*SUB CAT Products*/
+/******** Product Item CSS ********/
+/**********************************/
+.sub-product-item {
+    position: relative;
+}
+
+.sub-product-item .sub-product-title {
+    padding: 5px;
+    text-align: center;
+    background: #000000;
+    transition: all .3s;
+}
+
+.sub-product-item:hover .sub-product-title {
+    background: rgba(255, 193, 77,1);
+}
+
+.sub-product-item .sub-product-title a,
+.sub-product-item .sub-product-title .ratting {
+    position: relative;
+    width: 100%;
+}
+
+.sub-product-item .sub-product-title a {
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.sub-product-item .sub-product-title .ratting i {
+    font-size: 14px;
+    color: #ffb833;
+}
+
+.sub-product-item .product-content .price span {
+    margin-left: 12px;
+    text-decoration: line-through;
+    font-weight: 700;
+    color: #999999;
+}
+
+.sub-product-item:hover .sub-product-title a,
+.sub-product-item:hover .sub-product-title .ratting i {
+    color: #ffffff;
+}
+
+.sub-product-item:hover .product-content .price span {
+    color: #dddddd;
+}
+
+.sub-product-item .sub-product-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-product-item .sub-product-image a {
+    display: block;
+    background: #ffffff;
+    transition: .8s;
+}
+
+.sub-product-item .sub-product-image img {
+    width: 100%; 
+    transition: all .8s;
+}
+
+.sub-product-item:hover .sub-product-image img {
+    transform: scale(1.1);
+}
+
+.sub-product-item .sub-product-image .sub-product-action {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 193, 77,0.3);
+    transition: all .3s;
+    font-size: 0;
+    z-index: 1;
+    opacity: 0;
+}
+
+.sub-product-item:hover .sub-product-image .sub-product-action {
+    opacity: 1; 
+}
+
+.sub-product-item .sub-product-image .sub-product-action a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    padding: 7px 0 10px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+    background: #ffb833;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    transition: all .3s;
+    margin-top: 50px;
+}
+
+.sub-product-item:hover .sub-product-image .sub-product-action a {
+    margin-top: 0;
+}
+
+.sub-product-item .sub-product-image .sub-product-action a:last-child {
+    margin-right: 0;
+}
+
+.sub-product-item .sub-product-image .sub-product-action a:hover {
+    color: #ffb833;
+    background: #ffffff;
+    border: 3px solid #ffb833;
+}
+
+.sub-product-item .sub-product-price {
+    padding: 15px;
+    background: #000000;
+    transition: all .3s;
+}
+
+
+.sub-product-item:hover .sub-product-price {
+    background: rgba(255, 193, 77,1);
+}
+
+.sub-product-item .sub-product-price h3 {
+    display: inline-block;
+    color: #ffffff;
+    margin: 0;
+}
+
+.sub-product-item .sub-product-price h3 span {
+    font-size: 16px;
+}
+
+.sub-product-item .sub-product-price .btn {
+    float: right;
+    border: none;
+    color: #000000;
+    background: #ffb833;
+}
+
+.sub-product-item:hover .sub-product-price .btn,
+.sub-product-item .sub-product-price .btn:hover {
+    color: #ffb833;
+    background: #ffffff;
+}
+
+.sub-product-item .sub-product-price .btn i {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>
+
+
+<ul class="nav nav-tabs bg-light justify-content-center">
+        <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle " data-toggle="dropdown" href="#">Men</a>
+            <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> TopWears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Formal Shirts</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Polos & Tees</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Casual Shirts</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> BottomWears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Shoes & Sneakers</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Cargos</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Shorts</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Ethinc Wears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Kurtas & Kurta Sets</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Ethinc Jackets</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Sunglasses & Frames</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Sunglasses</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Frames</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Personal Care & Grooming</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Hair Growth</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Bath & Body</a></li>
+                <li><a href="#" class="dropdown-item sub-menu" href="#">Trimmers</a></li>
+                <li><a href="#" class="dropdown-item sub-menu" href="#">Grooming Kits</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Bags & Wallets</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Bagpacks</a></li>
+                   <li><a href="#" class="dropdown-item sub-menu" href="#">Wallets</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Watches & Wearables</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Watches</a></li>
+                </ul>
+                
+            </ul>
+        </li>
+        <li class="nav-item dropdown" >
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Women</a>
+        <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Ethinc Wears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Sarees</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Kurtas</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Ethinc Gowns</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Western Wears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Tops,Tees & Shirts</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Dresses</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Jeans & Jeggings</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Trousers</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Skirts</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Jewellery</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Earings</a></li>
+                   <li><a href="#" class="dropdown-item sub-menu" href="#">Jewellery Sets</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Rings</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Bangles & Bracelets</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Beauty & Personal Care</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Make Up</a></li>
+                   <li><a href="#" class="dropdown-item sub-menu" href="#">Skin Care</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Hair Care</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Sanitary Needs</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Winterwears & NightWears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">SweatShirts</a></li>
+                   <li><a href="#" class="dropdown-item sub-menu" href="#">Hair Accessories</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> FootWears</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Slippers & Flipflops</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Fashion Flats,Sandals</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Bags & Wallets </a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Handbags</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Wallets</a></li>
+                   <li><a href="#" class="dropdown-item sub-menu" href="#">Bacgpacks</a></li>
+
+                </ul>
+        </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Baby & Kids</a>
+        <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Boys Clothing</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Polos,Tees & Shrts</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Jeans & Trousers</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Shorts 3/4th</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Ethinc Wears</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Clothing Sets</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Girls Clothing</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Frocks & Dresses</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Ethinc Wears</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Sandals</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> School Supplies</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">School Bags</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">School Accessories</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Colouring Books</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Markers,Color Pencils & Other Craft Items</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Toys & Games</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Remote Control Toys</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Education Toys</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Soft Toys</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Cars & Bikes</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Puzzles</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Musical Toys</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Board Games</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> BabyCare</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Bottles & Feeding</a></li>
+                </ul>
+                </li>
+        </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Home & Living</a>
+        <ul class="dropdown-menu multi-level">
+             <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Home Decor</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Clocks</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Gifts</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Diyas</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Showpieces</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Air Freshner</a></li>
+                </ul>
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Bedsheets & Curtains</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Double Bedsheets & BedCovers</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Door Curtains</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Window Curtains </a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Luggage & Storage</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Storage Bags</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Travel Accessories</a></li>
+                </ul>
+                
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Kitchen & Dinning</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">CookWare</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">BakeWare</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Dinning & Serving</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Kitchen Tools</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Kitchen Storage Containers </a></li>
+                </ul>
+                </li>
+        </ul>
+        </li>
+        
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Mobile & Electronics</a>
+        <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Mobile & Tablet Accessories</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Headphones & Headsets</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Power Banks</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Memory Cards</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Chargers</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Mobile Cables</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Selfie Sticks</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Laptop & Desktop Accessories</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Pendrves</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Mouse & Keyboard</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Mobiles & Tablets</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Mobiles</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Tablets</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> TV & Home Applainces</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Kitchen & Home Appliances</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Heating & Cooling Appliances</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Others</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Home Entertainment & Automation</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Home Theaters</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Speakers</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Microphones</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Smart Lights</a></li>
+                </ul>
+                </li>
+        </ul>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Grocery & More</a>
+        <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> HomeMade Food</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Pickles</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Ready to Eat</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Others</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Sweets,Chocolates & Cakes</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Sweets</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Chocolates</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Cakes</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Organic Food</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Cereals & Pulses</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Spices</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Others</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Beverages</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Herbal & Health Drinks</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Tea & Coffee</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#">Spices</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Whole Spices</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Powdered Spices</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Others</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Dry Fruits & Daily Essentials</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Dry Fruits</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Kitchen cleaning</a></li>
+                    <li><a href="#" class="dropdown-item sub-menu" href="#">Dishwash</a></li>
+                </ul>
+                </li>
+        </ul>
+        </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Everything Else</a>
+        <ul class="dropdown-menu multi-level">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Sports & Outdoors</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Cricket,Badminton & FootBall</a></li>
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Fitness Accessories</a></li>
+
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Automobiles</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Car & Bike Care</a></li>
+                </ul>
+                <li class="dropdown-submenu">
+                <a class="dropdown-item " href="#"> Others</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#" class="dropdown-item sub-menu" href="#">Others</a></li>
+                </ul>
+                </li>
+        </ul>
+        </li>
+    </ul>
+    </div>
+
+
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: blue;
+}
+.dropdown-item:hover{
+    background:skyblue;
+}
+.dropdown-item{
+    letter-spacing:0.5px;
+    font-size:13px;
+}
+.sub-menu{
+    letter-spacing:1px;
+    font-size:10px;
+}
+
+.dropdown-item{
+    font-size:12px;
+}
+.nav-link{
+    font-size:15px;
+    font-weight:500;
+    letter-spacing:0.2px;
+}
+.nav-link:hover{
+    color:blue;
+}
+
+
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #FF6F61;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 4px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 11;
+}
+
+.back-to-top i {
+    padding-top: 12px;
+    color: #ffffff;
+}

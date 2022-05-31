@@ -1,0 +1,163 @@
+Mens=>
+	TopWears:
+			Formal Shirts
+			Polos And Tees
+			Casual Shirts
+	BottomWears:
+			Shoes and Sneakers
+			Cargos
+			Shorts
+	EthincWears:
+			Kurtas And Kurta Sets
+			Ethinc Jackets	
+	Sunglasses and frames:
+			Sunglasses
+			frames
+	Personal Care and Grooming: 
+			Hair and Growth
+			Bath and Body
+			Trimmers
+			Grooming
+	Bags and Wallets:
+			Bagpacks:
+			Wallets	
+	Watches and Wearables:
+			Watches
+			Bands
+Womens=>
+	Ethinc Wears:
+			Sarees
+			kurtas
+			Ethinc Gowns
+	Western Wears:
+			Tops,Tees,Shirts
+			Dresses
+			Jeans and leggins
+			Skirts
+	Jewelery:
+			Earings 
+			Jewellery Sets
+			Rings	
+			Bangles and Bracelets
+	Beauty and personal care:
+			MakeUp
+			Skin Care
+			Hair Care
+			Sanitary Needs
+	WinterWears and NightWears:
+			SweatShirts
+			Hair Accessories
+	Footwears:
+			Slippers and Flipflops
+			fashion,flats and sandals
+	Bags and Wallets:
+			Handbags
+			Wallets
+			Bagpacks
+Kids=>
+	Boys Clothing:
+			Polos,Tees and Shirts
+			Jeans and trousers
+			Shorts and 3/4
+			Ethinc Wears
+			Western Wears
+			Clothing Sets
+			Watches
+			footwears
+	Girls Clothing:
+			frocks and dresses
+			ethinc wears
+			western wears 
+			clothing sets
+			watches
+			footwears
+	School Supplies:
+			school bags
+			school accesories
+			colouring books
+			markers,color pencils and other caft items
+	Toys and Games:
+			Remote control toys
+			education toys
+			soft toys
+			cars and bikes toys
+			puzzles
+			musical toys
+			board games
+	babycare:
+			bottles and feeding
+home and living=>
+	home decor:
+			clocks
+			gifts
+			diyas
+			Showpieces
+			Air freshner
+	bedsheets and curtains:
+			double bedshhets and bed covers
+			door curtains
+			window curtains
+	Lugguage and storage
+			storage bags
+			travel accessories
+	kitchen and dinning
+			cookware
+			bakeware
+			dinning and serving
+			kitchen tools
+			kitchen storage containers
+Mobile and Electronics:
+	mobile and tablet accesseries
+			headphones and headsets
+			power banks
+			memory cards
+			chargers	
+			mobile cables
+			selfie sticks
+	laptop and desktop accessories:
+			pendrives
+			mouse and keyboard
+	mobiles and tablets:
+			mobiles
+			tablets
+	TV and Home Appliances:
+			Kitchen and appliances
+			heating and cooling appliances
+			others
+	home entertainment and automation:
+			home theters
+			speakers
+			microphones
+			smart lights
+Grocery and More=>
+	homemade food:
+			Pickles
+			Ready to Eat
+			Others
+	Sweets,Chocolates & Cakes:
+			Sweets 
+			chocolates
+			cakes
+	Organic Food:
+			cereals and pulses
+			spices
+			others
+	Beverages:
+			herbal and health drinks
+			tea and coffee
+	Spices:
+			whole spices
+			powdered spices
+			others
+	Dry Fruits & Daily Essentials:
+			dry fruits
+			kitchen cleaning
+			dishwash
+everything else:
+	sports and outdoors:
+			cricket,football and badminton
+			fitness accessories
+	automobiles:
+			Car and bike care
+	others:
+			others			
